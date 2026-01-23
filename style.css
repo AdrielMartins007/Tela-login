@@ -4,7 +4,7 @@ body {
     max-height: 100%;
     margin: 120px auto;
     background-color: black;
-    background-image: url(https://wallpapers.com/images/hd/twilight-aesthetic-49my6wse14zydfa6.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2025/09/19/05/48/mountain-range-9842371_1280.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,8 +44,13 @@ main .titulo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 70%;
     height: 6vh;
-    background-color: transparent;
+    background-color: rgba(7, 7, 7, 0.188);
     margin-bottom: 20px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 20px;
 }
 
 .caixa-texto p{
