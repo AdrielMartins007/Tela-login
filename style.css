@@ -1,8 +1,10 @@
 body {
-    max-width: 550px;
-    min-width: 100px;
+    max-width: 580px;
     max-height: 100%;
-    margin: 120px auto;
+    margin: auto;
+    padding-top: 12vh;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: black;
     background-image: url(https://cdn.pixabay.com/photo/2025/09/19/05/48/mountain-range-9842371_1280.jpg);
     background-position: center;
@@ -12,7 +14,7 @@ body {
 }
 
 main {
-    background-color: rgba(15, 15, 87, 0.267);
+    background-color: rgba(18, 57, 38, 0.527);
     border-radius: 20px;
     box-shadow: 0px 0px 15px black;
 }
@@ -20,19 +22,20 @@ main {
 main .titulo {
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 35px;
     margin: auto;
     width: 100%;
     border-radius: 20px;
     color: rgba(255, 255, 255, 0.907);
-    font-size: 15px;
+    font-size: 20px;
     font-family: sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 .caixa-texto {
+    margin: auto;
     text-align: center;
-    width: 100%;
-    min-width: 15vw;
+    width: 90%;
     border-radius: 20px;
     color: rgb(12, 12, 118);
 }
@@ -46,41 +49,43 @@ main .titulo {
     height: 6vh;
     background-color: rgba(7, 7, 7, 0.188);
     margin-bottom: 20px;
-}
-
-::placeholder{
     color: white;
-    font-size: 20px;
 }
 
-.caixa-texto p{
+::placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+}
+
+.caixa-texto p {
     text-align: center;
     margin-right: 10px;
     font-size: 20px;
     display: inline;
 }
 
-.texto-pequeno{
+.texto-pequeno {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
-.texto-pequeno a{
+.texto-pequeno a {
     text-decoration: none;
     color: white;
     display: inline;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    font-size: 17px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 15px;
 }
 
-a:hover{
+a:hover {
     color: rgb(199, 199, 229);
 }
 
 .botoes {
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     border-radius: 20px;
     width: 100%;
     text-align: center;
@@ -88,11 +93,24 @@ a:hover{
 
 button {
     border-radius: 8px;
-    background-color: rgba(42, 37, 184, 0.359);
-    color: white;
+    color: black;
     font-size: 20px;
     width: 30%;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:active{
+    background-color: lightgray;
+}
+
+.texto-final{
+    color: white;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 10px;
 }
