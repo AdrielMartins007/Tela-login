@@ -32,6 +32,10 @@ header a {
     background-color: rgba(255, 255, 255, 0.118);
 }
 
+header a:active{
+    background-color: rgb(78, 76, 76);
+}
+
 main {
     background-color: rgba(18, 57, 38, 0.527);
     border-radius: 20px;
@@ -90,7 +94,8 @@ main .titulo {
 
 .texto-pequeno {
     text-align: center;
-    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .texto-pequeno a {
@@ -133,7 +138,20 @@ button:active {
 .texto-final {
     color: white;
     font-family: 'inter', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     padding-bottom: 10px;
+}
+
+.texto-final a{
+    text-decoration: none;
+    color: white;
+}
+
+.texto-final a:hover{
+    text-decoration: underline;
+}
+
+.texto-final a:active{
+    color: rgb(158, 158, 167);
 }
