@@ -8,38 +8,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0.616);
-    width: 100vw;
-    margin-bottom: 10vh;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-header a {
-    text-decoration: none;
-    color: white;
-    font-family: 'inter', sans-serif;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgba(180, 178, 178, 0.118);
-}
-
-header a:active{
-    background-color: rgb(78, 76, 76);
+    padding-top: 18vh;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 main {
-    background-color: rgba(18, 57, 38, 0.527);
+    background-color: rgba(44, 42, 66, 0.527);
     border-radius: 20px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 5px black;
     width: 100%;
     max-width: 600px;
     min-width: 200px;
@@ -77,10 +54,11 @@ main .titulo {
     background-color: rgba(7, 7, 7, 0.188);
     margin-bottom: 20px;
     color: white;
+    border: 1px solid rgb(123, 122, 122);
 }
 
 ::placeholder {
-    color: white;
+    color: rgba(255, 255, 255, 0.622);
     font-size: 16px;
     font-family: 'inter', sans-serif;
 }
@@ -123,12 +101,13 @@ button {
     border-radius: 8px;
     color: black;
     font-size: 20px;
-    width: 30%;
+    width: 23%;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
     font-weight: bold;
+    border: 0px;
 }
 
 button:active {
