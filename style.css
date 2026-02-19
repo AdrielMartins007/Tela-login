@@ -171,6 +171,8 @@
         border-radius: 15px;
         transition: 0.3s ease-in-out;
         box-shadow: 0px 0px 9px white;
+        box-sizing: border-box;
+        padding: 20px;
     }
 
     body .claro-escuro {
