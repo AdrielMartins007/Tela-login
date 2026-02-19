@@ -67,6 +67,7 @@ body form {
     background-image: url(imagens/claro.png);
     background-size: cover;
     background-position: center center;
+    transition: 0.3s ease-in-out;
 }
 
 /* FORM DO LADO DIREITO - ENTRADA */
