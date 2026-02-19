@@ -145,12 +145,12 @@
 
     .texto-final a {
         text-decoration: none;
-        color: rgb(108, 114, 233);
+        color: blue;
     }
 
     a:hover {
         text-decoration: underline;
-        color: blue;
+        color: rgb(110, 110, 241);
     }
 
 }
@@ -267,6 +267,6 @@
     .texto-final a{
         font-size: 15px;
         text-decoration: none;
-        color: rgb(8, 8, 148);
+        color: blue;
     }
 }
