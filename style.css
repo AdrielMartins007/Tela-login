@@ -250,8 +250,8 @@
     }
 
     .botoes input {
-        width: 100%;
-        max-width: 250px;
+        width: 50%;
+        max-width: 200px;
         height: auto;
         padding: 15px;
         margin-top: 10px;
