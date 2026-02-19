@@ -10,6 +10,11 @@
 
 <body>
 
+    <div>
+        <button class="claro-escuro" id="modo-escuro" onclick="escuro()">🌙</button>
+        <button class="claro-escuro" id="modo-claro" onclick="claro()">🔆</button>
+    </div>
+
     <main>
 
         <form id="form1"></form>
@@ -26,15 +31,19 @@
             </div>
 
             <div class="botoes">
-                <input type="submit" value="Entrar">
+                <input type="submit" value="Entrar" id="botao">
             </div>
 
-            <div class="texto-final">© 2026 <a href="https://github.com/AdrielMartins007" target="_blank">Adriel Martins</a>. Todos os direitos reservados.
+            <div class="texto-final">
+                <a href="#">Esqueceu a senha?</a>
+                <a href="#">Não tenho cadastro</a>
             </div>
 
         </form>
 
     </main>
+
+    <script src="script.js"></script>
 
 </body>
 

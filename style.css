@@ -5,7 +5,7 @@
 
 /* CORPO */
 body {
-    background-image: linear-gradient(to bottom, rgb(158, 209, 216), rgb(233, 231, 231), rgb(158, 209, 216));
+    background-color: #dee1e4;
     background-attachment: fixed;
     background-position: center center;
     display: flex;
@@ -15,12 +15,33 @@ body {
     height: 100vh;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+body .claro-escuro{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#modo-claro{
+    display: none;
+    background-color: rgb(225, 220, 220);
+}
+
+#modo-escuro{
+    background-color: rgb(9, 9, 43);
 }
 
 /* CONTAINER PRINCIPAL AONDE AS DUAS DIVS ESTAO DENTRO */
 body main {
-    width: 60%;
-    height: 40vh;
+    width: 750px;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +95,9 @@ body form {
 }
 
 .botoes{
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .botoes input{
@@ -86,8 +109,23 @@ body form {
     background-color: lightblue;
 }
 
+#botao:hover{
+    background-color: rgb(75, 75, 237);
+    color: white;
+}
+
 .texto-final{
-    box-sizing: border-box;
-    font-size: 12px;
-    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto-final a{
+    text-decoration: none;
+    color: rgb(108, 114, 233);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
 }
