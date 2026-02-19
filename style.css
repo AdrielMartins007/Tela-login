@@ -1,7 +1,9 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* ALTERADO: impede que padding quebre layout */
 }
+
 
 @media screen and (min-width: 699px) {
 
