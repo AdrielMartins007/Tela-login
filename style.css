@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+@media screen and (min-width: 699px) {
 
     /* CORPO */
     body {
@@ -121,8 +121,9 @@
         border: none;
         cursor: pointer;
         font-size: 17px;
-        background-color: lightblue;
+        background-color: #2c2f33;
         transition: 0.3s ease-in-out;
+        color: white;
     }
 
     #botao:hover {
@@ -149,7 +150,7 @@
 
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 700px) {
     body {
         background-color: #dee1e4;
         background-attachment: fixed;
@@ -162,6 +163,14 @@
         box-sizing: border-box;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         transition: 0.3s ease-in-out;
+    }
+
+    #form2{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        transition: 0.3s ease-in-out;
+        box-shadow: 0px 0px 9px white;
     }
 
     body .claro-escuro {
@@ -203,13 +212,15 @@
     .titulo h1 {
         font-size: 70px;
         text-align: center;
+        text-shadow: 0px 2px 2px black;
     }
 
     .caixa-texto {
+        width: 80%;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 10px auto;
     }
 
     .caixa-texto input {
@@ -228,13 +239,16 @@
     }
 
     .botoes input{
-        padding: 10px;
+        padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
-        border-radius: 10px;
+        border-radius: 15px;
+        background-color: #2c2f33;
+        color: white;
         border: none;
-        font-size: 18px;
+        font-size: 20px;
         transition: 0.3s ease-in-out;
+        box-shadow: 0px 2px 3px black;
     }
 
     .texto-final{
