@@ -77,26 +77,47 @@
     }
 
     /* FORM DO LADO DIREITO - ENTRADA */
-    #form2 {
-        color: black;
-        background-color: #dee1e4;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
+    #form2{
+        box-sizing: border-box;
+    }
+
+    #entrada{
         display: flex;
         flex-direction: column;
     }
 
-    #form2 .titulo {
+    #entrada .titulo{
         text-align: center;
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 
-    #form2 .caixa-texto {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        margin: auto;
+    #entrada .caixa-texto{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #entrada .botoes{
+        margin-top: 25px;
+    }
+
+    #cadastro{
+        display: none;
+    }
+
+    #cadastro .titulo{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    #cadastro .caixa-texto{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #cadastro .botoes{
+        margin-top: 25px;
     }
 
     /* DIV COM OS INPUT DE ENTRADA */
@@ -178,6 +199,9 @@
         border-radius: 15px;
         box-shadow: 0px 0px 9px white;
         padding-bottom: 20px;
+    }
+    #cadastro{
+        display: none;
     }
 
     body .claro-escuro {
@@ -263,7 +287,6 @@
         font-size: 20px;
         box-shadow: 0px 2px 3px black;
         box-sizing: border-box;
-        cursor: pointer;
     }
 
     .texto-final {

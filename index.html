@@ -21,22 +21,44 @@
 
         <form id="form2">
 
-            <div class="titulo">
-                <h1 id="titulo">Login</h1>
+            <div id="entrada">
+
+                <div class="titulo">
+                    <h1 id="titulo">Login</h1>
+                </div>
+
+                <div class="caixa-texto">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+
+                <div class="botoes">
+                    <input type="submit" value="Entrar" id="botao">
+                </div>
+
+                <div class="texto-final">
+                    <a class="link" href="#" id="txt1">Esqueceu a senha?</a>
+                    <a class="link" href="#" id="txt2" onclick="mudar()">Não tenho cadastro</a>
+                </div>
+
             </div>
 
-            <div class="caixa-texto">
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Senha" required>
-            </div>
+            <div id="cadastro">
 
-            <div class="botoes">
-                <input type="submit" value="Entrar" id="botao">
-            </div>
+                <div class="titulo">
+                    <h1 id="tituloCadastro">Cadastro</h1>
+                </div>
 
-            <div class="texto-final">
-                <a class="link" href="#">Esqueceu a senha?</a>
-                <a class="link" href="#" onclick="mudar()">Não tenho cadastro</a>
+                <div class="caixa-texto">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+
+                <div class="botoes">
+                    <input type="submit" value="Entrar" id="botaoCadastro">
+                </div>
+                
             </div>
 
         </form>
