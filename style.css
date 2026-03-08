@@ -263,6 +263,7 @@
         font-size: 20px;
         box-shadow: 0px 2px 3px black;
         box-sizing: border-box;
+        cursor: pointer;
     }
 
     .texto-final {

@@ -5,6 +5,7 @@ var caixa = document.getElementById('form1')
 var entrada = document.getElementById('form2')
 var titulo = document.getElementById('titulo')
 var botao = document.getElementById('botao')
+var btnCadastro = document.getElementById('cadastro')
 var main = document.querySelector('main')
 var links = document.querySelectorAll('a')
 
@@ -43,4 +44,8 @@ function claro() {
     links.forEach(function(link){
         link.style.color = 'blue'
     })
+}
+
+function mudar(){
+    window.location.href = 'tela-cadastro.html'
 }

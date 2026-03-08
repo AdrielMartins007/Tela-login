@@ -8,6 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<style>
+    * {
+        transition: 0.3s ease-in-out;
+    }
+
+    #form2 {
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #form1 {
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+</style>
+
 <body>
 
     <div>
@@ -17,27 +37,25 @@
 
     <main>
 
-        <form id="form1"></form>
-
         <form id="form2">
 
             <div class="titulo">
-                <h1 id="titulo">Login</h1>
+                <h1 id="titulo">Cadastro</h1>
             </div>
 
             <div class="caixa-texto">
+                <input type="text" placeholder="Nome" required>
                 <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Senha" required>
             </div>
 
             <div class="botoes">
-                <input type="submit" value="Entrar" id="botao">
+                <input type="submit" value="Cadastrar" id="cadastro">
             </div>
 
-            <div class="texto-final">
-                <a class="link" href="#">Esqueceu a senha?</a>
-                <a class="link" href="#" onclick="mudar()">Não tenho cadastro</a>
-            </div>
+        </form>
+
+        <form id="form1">
 
         </form>
 
